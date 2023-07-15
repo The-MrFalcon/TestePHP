@@ -24,7 +24,7 @@ function fornecedores() {
 }
 
 //Removedor de classe da tabela
-function removeLast(tabela) {
+function removeLast() {
     var classes = tabela.classList;
     if (classes.length > 0) {
         var ultimaClasse = classes[classes.length - 1];
